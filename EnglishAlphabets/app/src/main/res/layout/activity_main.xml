@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1E0909"
+    android:backgroundTint="#1E0505"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="163dp"
         android:text="                                                                   Learn English Alphabets"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="A"
-            android:onClick="intent_a"/>
+            android:onClick="intent_a"
+            android:text="A" />
 
         <Button
             android:id="@+id/btn_b"
@@ -61,192 +60,206 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="D"
-            android:onClick="intent_d"/>
+            android:onClick="intent_d"
+            android:text="D" />
+
         <Button
             android:id="@+id/btn_e"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="E"
-            android:onClick="intent_e"/>
+            android:onClick="intent_e"
+            android:text="E" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_f"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="F"
-            android:onClick="intent_f"/>
+            android:onClick="intent_f"
+            android:text="F" />
+
         <Button
             android:id="@+id/btn_g"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="G"
-            android:onClick="intent_g"/>
+            android:onClick="intent_g"
+            android:text="G" />
+
         <Button
             android:id="@+id/btn_h"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H"
-            android:onClick="intent_h"/>
+            android:onClick="intent_h"
+            android:text="H" />
+
         <Button
             android:id="@+id/btn_i"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="I"
-            android:onClick="intent_i"/>
+            android:onClick="intent_i"
+            android:text="I" />
+
         <Button
             android:id="@+id/btn_j"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="J"
-            android:onClick="intent_j"/>
+            android:onClick="intent_j"
+            android:text="J" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_k"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="K"
-            android:onClick="intent_k"/>
+            android:onClick="intent_k"
+            android:text="K" />
+
         <Button
             android:id="@+id/btn_l"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="L"
-            android:onClick="intent_l"/>
+            android:onClick="intent_l"
+            android:text="L" />
+
         <Button
             android:id="@+id/btn_m"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="M"
-            android:onClick="intent_m"/>
+            android:onClick="intent_m"
+            android:text="M" />
+
         <Button
             android:id="@+id/btn_n"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="N"
-            android:onClick="intent_n"/>
+            android:onClick="intent_n"
+            android:text="N" />
+
         <Button
             android:id="@+id/btn_o"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="O"
-            android:onClick="intent_o"/>
+            android:onClick="intent_o"
+            android:text="O" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_p"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="P"
-            android:onClick="intent_p"/>
+            android:onClick="intent_p"
+            android:text="P" />
+
         <Button
             android:id="@+id/btn_q"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Q"
-            android:onClick="intent_q"/>
+            android:onClick="intent_q"
+            android:text="Q" />
+
         <Button
             android:id="@+id/btn_r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="R"
-            android:onClick="intent_r"/>
+            android:onClick="intent_r"
+            android:text="R" />
+
         <Button
             android:id="@+id/btn_s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="S"
-            android:onClick="intent_s"/>
+            android:onClick="intent_s"
+            android:text="S" />
+
         <Button
             android:id="@+id/btn_t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="T"
-            android:onClick="intent_t"/>
+            android:onClick="intent_t"
+            android:text="T" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_u"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="U"
-            android:onClick="intent_u"/>
+            android:onClick="intent_u"
+            android:text="U" />
+
         <Button
             android:id="@+id/btn_v"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="V"
-            android:onClick="intent_v"/>
+            android:onClick="intent_v"
+            android:text="V" />
+
         <Button
             android:id="@+id/btn_w"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="W"
-            android:onClick="intent_w"/>
+            android:onClick="intent_w"
+            android:text="W" />
+
         <Button
             android:id="@+id/btn_x"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="x"
-            android:onClick="intent_x"/>
+            android:onClick="intent_x"
+            android:text="x" />
+
         <Button
             android:id="@+id/btn_y"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Y"
-            android:onClick="intent_y"/>
+            android:onClick="intent_y"
+            android:text="Y" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_z"
@@ -257,11 +270,11 @@
             android:onClick="intent_z"
             android:text="Z" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        />
+        android:orientation="horizontal" />
 
 
 </LinearLayout>
